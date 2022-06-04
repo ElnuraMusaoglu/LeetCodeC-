@@ -41,7 +41,7 @@ namespace LeetCode
             String subString = strs[0].Substring(0, len);
             
             for (int i = 1; i < strs.Length; i++)
-                if (!strs[i].StartsWith(str1))
+                if (!strs[i].StartsWith(subString))
                     return false;
 
             return true;
