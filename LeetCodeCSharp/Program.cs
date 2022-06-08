@@ -8,8 +8,11 @@ namespace LeetCodeCSharp
         public static void Main()
         {
             Solution solution = new Solution();
-            string[] list = {"Hello","Alaska","Dad","Peace"};
-            Console.WriteLine(solution.FindWords(list).ToString());
+            int[] list = {3,3};
+            int[] result = solution.TwoSum(list, 6);
+            Console.WriteLine(result[0]);
+            Console.WriteLine(result[1]);
+
         }
     }
 }
