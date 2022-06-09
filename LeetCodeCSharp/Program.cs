@@ -1,5 +1,6 @@
 ﻿using System;
 using LeetCode;
+using static LeetCodeCSharp.Solution;
 
 namespace LeetCodeCSharp
 {
@@ -8,10 +9,11 @@ namespace LeetCodeCSharp
         public static void Main()
         {
             Solution solution = new Solution();
-            int[] list = {3,3};
-            int[] result = solution.TwoSum(list, 6);
-            Console.WriteLine(result[0]);
-            Console.WriteLine(result[1]);
+            ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3, null)));
+            ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4, null)));
+
+            var result = solution.AddTwoNumbers(l1, l2);
+            
 
         }
     }
