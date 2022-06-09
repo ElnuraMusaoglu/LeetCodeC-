@@ -32,8 +32,8 @@ namespace LeetCodeCSharp
                 current.next = new ListNode(sum % 10, null);
 
                 current = current.next;
-                p = p.next;
-                q = q.next;
+                if (p != null) p = p.next;
+                if (q != null) q = q.next;
             }
             current.next = null;
             if (carry > 0) current.next = new ListNode(carry, null);
