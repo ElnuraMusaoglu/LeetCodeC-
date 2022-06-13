@@ -20,7 +20,7 @@ namespace LeetCodeCSharp
                 current = next;
             }
 
-            return current;
+            return prev;
         }
     }
 }
