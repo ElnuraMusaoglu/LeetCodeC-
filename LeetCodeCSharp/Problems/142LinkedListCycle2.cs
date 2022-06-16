@@ -6,6 +6,6 @@ namespace LeetCodeCSharp
 {
     public partial class Solution
     {
-      
+       
     }
 }
