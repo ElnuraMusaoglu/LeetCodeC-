@@ -28,7 +28,7 @@ namespace LeetCodeCSharp
                 result[result.Length - 1 - i] = c;
             }
 
-            return result.ToString();
+            return new string(result);
         }
     }
 }

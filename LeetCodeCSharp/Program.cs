@@ -14,7 +14,7 @@ namespace LeetCodeCSharp
             //ListNode l1 = new ListNode(2, null);
             ListNode l2 = new ListNode(1, null);
 
-            var result = solution.RemoveDuplicates("abbaca");
+            var result = solution.FirstUniqChar("loveleetcode");
             
 
         }
