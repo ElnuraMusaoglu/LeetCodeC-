@@ -14,7 +14,7 @@ namespace LeetCodeCSharp
             //ListNode l1 = new ListNode(2, null);
             ListNode l2 = new ListNode(1, null);
 
-            var result = solution.TopKFrequent(new int [] { 1, 2 }, 2);
+            var result = solution.RemoveDuplicates("abbaca");
             
 
         }
