@@ -28,7 +28,7 @@ namespace LeetCodeCSharp
             //ListNode l2 = new ListNode(1, null);
             // 4,2,7,1,3,6,9
 
-            var result = solution.GetMinimumDifference(l2);
+            var result = solution.Convert("PAYPALISHIRING", 4);
             
 
         }
